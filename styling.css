@@ -1,0 +1,86 @@
+body{
+    height: auto;
+    width: auto;
+    margin: auto;
+    padding: auto;
+}
+
+header {
+    color: rgba(5, 133, 245,0.7);
+    width: 100%;
+    text-align: center;
+    border: 1px solid rgba(201, 16, 16, 0.506);
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+   
+
+}
+
+.welcome{
+    background-image: URL("./IMAGES/banner-truck-1.jpg");
+    height: 50%;
+    width: 90%;
+    background-position: center center;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 10px;
+    position: fixed;
+    color: midnightblue;
+    padding-bottom: -5px;
+    margin: 85px 55px ;
+    
+    
+     
+}
+
+.welcome-text{
+    background-color: rgba(5, 133, 245,0.5);
+    font-size: 50px;
+    display: block;
+    margin-top: -2px;
+    color: white;
+    width: 100%;
+    border-radius: 30px;
+    
+}
+
+
+
+nav {
+    background-color:rgba(5, 133, 245,0.9);
+    background-size: 5px;
+    height: 80px;
+    width: 95%;
+    color: white;
+    border-radius: 5px;
+    margin-left: 30px;
+    position: fixed;
+    
+
+}
+
+
+.cordova{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    float: left;
+}
+
+li{
+    list-style-type: none;
+    margin-bottom: 5px;
+    padding :5px;
+    display: inline-block;
+    float: right;
+    position: static;
+    
+
+    
+    
+}
+
+a, a:hover{ 
+    color: white;
+}
